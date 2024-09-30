@@ -68,28 +68,6 @@ public class TargetX : MonoBehaviour
 
     }
 
-    //if the target thatt is bad collides with he sensor then game over
-    //private void OnTriggerEnter(Collider other)
-    //{
-    //    if (other.gameObject.CompareTag("Sensor"))
-    //    {
-    //        if (CompareTag("Bad"))
-    //        {
-    //            Debug.Log("Fail: Selected deadly object");
-    //            gameManagerX.GameOver();
-    //        }
-    //        else
-    //        {
-    //            Debug.Log("Selected good object");
-    //        }
-
-    //        Destroy(gameObject);  // Destroy after the check
-    //    }
-    //}
-
-
-
-
 
     // Display explosion particle at object's position
     void Explode ()
